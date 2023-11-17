@@ -1,0 +1,522 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html
+{
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+    background-color: rgba(0, 9, 46, 0.509);
+    opacity: 100%;
+    top: 0%;
+    width:100%;
+    position: sticky;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 9999;
+}
+
+header .navigation {
+    align-items: center;
+}
+
+header .navigation li {
+    display: inline-block;
+    font-size: 1.5vh;
+    list-style: none;
+    font-weight: 500;
+}
+
+header .navigation li a {
+    text-decoration: none;
+    text-align:center;
+    color: rgb(255, 255, 255);
+    padding: 2.2vh;
+}
+
+header .navigation li a:hover {
+    color: rgb(9, 9, 79);
+    transition: 0.7s;
+}
+
+
+
+.navPad {
+    padding: 3.3vh 63.5vh;
+}
+
+
+
+
+.aecImg {
+    background-image: url(./img/aecImg.png);
+    background-size: cover;
+    width: 10%;
+    height: 15vh;
+    position: absolute;
+    cursor: pointer;
+    padding: 2vh;
+    opacity: 0.9;
+    border-radius: 0px 0px 80px 80px;
+    margin-top: -1vh;
+    margin-left: 24vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.homeImg {
+    background-image: linear-gradient(rgba(0, 136, 255, 0.3), rgba(0, 136, 255, 0.3)), url(./img/homeImg.png);
+    background-repeat: no-repeat;
+    height: 63vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 6vh;
+}
+
+
+.homeImg h1 {
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 5rem;
+    padding-top: 28vh;
+    padding-right: 60vh;
+    text-shadow: black;
+
+}
+
+
+.homeImg p {
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    color: white;
+    padding-top: 2vh;
+    padding-right: 30vh;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+.home2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2vh;
+}
+
+
+
+.home2 h1 {
+    font-size: 2.5vh;
+    margin-left: 45vh;
+    margin-right: 45vh;
+    margin-bottom: 3vh;
+    letter-spacing: -1px;
+}
+
+
+
+.home2 p {
+    font-size: 1.8vh;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    margin-bottom: 4vh;
+    line-height: 25px;
+}
+
+
+.home2 a {
+    color: rgb(9, 9, 79);
+    background-color: white;
+    border-color: rgb(9, 9, 79);
+    border-width: 1.5px;
+    border-style: solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-size: 14px;
+    transition: background-color 0.5s;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+
+
+.home2 a:hover {
+    color: white;
+    background-color: rgb(9, 9, 79);
+}
+
+
+.home2 a:active {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.abouttxt {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    box-shadow: 0 0px 5px black;
+    margin-bottom: 2vh;
+}
+
+
+.abouttxt h1 {
+    text-align: center;
+    font-size: 25px;
+    padding-left: 80vh;
+}
+
+
+.abouttxt p {
+    text-align: center;
+    padding-left: 85vh;
+    margin-right: 8vh;
+    font-size: 16px;
+}
+
+
+
+
+.abouttxt {
+    background-image: url(./img/aboutusimg.jpg);
+    background-repeat: no-repeat;
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ourProjects {
+    margin-bottom: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin-left: 18vh;
+    margin-right: 18vh;
+    border-radius: 40px;
+    box-shadow: 0 0px 5px black;
+}
+
+
+
+
+.ourProjects h1 {
+    font-size: 26px;
+    margin-left: 4vh;
+    padding-top: 4vh;
+}
+
+
+
+.ourProjects a {
+    font-size: 20px;
+    margin-left: 120vh;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(184, 164, 127);
+    transition: color 0.5s;
+}
+
+
+.ourProjects a:hover {
+    color: rgb(9, 9, 79);
+}
+
+
+
+.ourProjects p {
+    margin-left: 4vh;
+    font-size: 10px;
+    margin-top: -3vh;
+    margin-bottom: 2vh;
+}
+
+
+.img1 img {
+    margin: 4vh;
+    border-radius: 10px;
+    height: 30vh;
+    width: 65vh;
+}
+
+
+
+.img2 img {
+    margin: 4vh;
+    margin-left: 75vh;
+    margin-top: -40vh;
+    margin-bottom: 5.5vh;
+    border-radius: 10px;
+    height: 30vh;
+    width: 65vh;
+}
+
+
+.img3 img {
+    margin: 4vh;
+    margin-top: 0vh;
+    border-radius: 10px;
+    height: 30vh;
+    width: 65vh;
+}
+
+
+
+.img4 img {
+    margin: 4vh;
+    margin-left: 75vh;
+    margin-top: -40vh;
+    margin-bottom: 5.5vh;
+    border-radius: 10px;
+    height: 30vh;
+    width: 65vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ourServices {
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin-bottom: -5vh;
+}
+
+
+
+.ourServices h1 {
+    margin-top: 4vh;
+    text-align: center;
+    font-size: 3vh;
+    margin-bottom: 4vh;
+}
+
+
+.ourServices p {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-size: 20px;
+    margin-bottom: 2vh;
+}
+
+
+
+
+
+.ourServices table, th, td {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    padding: 2vh;
+}
+
+.ourServices td {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+.ourServices table {
+    margin-top: 20vh;
+    margin-left: 50vh;
+    margin-right: 45vh;
+    margin-bottom: 20vh;
+    scale: 1.5;
+    cursor: pointer;
+}
+
+
+
+/*
+.ourServices th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+*/
+
+
+.ourServices tr:nth-child(even) {
+    background-color: rgba(150, 212, 212, 0.4);
+}
+
+
+
+.ourServices td:hover {
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+}
+
+
+
+
+.ourServices .twoRow {
+    padding-right: 5vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contactUs {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contactUs h1 {
+    color: rgb(241, 241, 241);
+    margin-left: 20vh;
+    padding-top: 4vh;
+    font-size: 4vh;
+    margin-bottom: 4vh;
+}
+
+
+.contactUs p {
+    color: rgb(241, 241, 241);
+    margin-left: 10vh;
+    padding-bottom: 3vh;
+    font-size: 14px;
+}
